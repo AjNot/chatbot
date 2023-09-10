@@ -1,0 +1,48 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "Hey there", "Is anyone there?","Hey","Hola", "Hello", "Good day","Hi","How you doing?","How are you?"],
+     "responses": ["Hello there", "Good to see you", "Hi there, how are you feeling today?","Its so good to meet you!"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","See you later"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.","Hope to see you again","Until next time"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Thanks for helping me","Thank you so much"],
+     "responses": ["Happy to help!", "Anytime!", "My pleasure","Happy to be here","Just doing my job"],
+     "context": [""]
+    },
+    {"tag": "sad songs",
+     "patterns": ["Suggest songs sad"],
+     "responses": ["Mmm, how about 'Tera Zikr' by Darshan Raval","Let me see, how about 'Channa Mereya' by Arijit Singh ","These kind of days need songs like 'Humnava Mere' by Jubin Nautiyal","I see you are sad, how about 'Ae Dil Hai Mushkil' by Arijit Singh","How about 'Phir Kabhi' by Arijit Singh","What about 'Bekhayali' by Sachet","What about 'Mehrama' by Pritam","Listen to 'Dil Ko Karaar Aaya' by Yasser Desai","Would you listen to 'Galiyan' by Ankit Tiwari","I think you will like 'Dil Diyan Gallan' By Atif Aslam","How about you listen to 'Tum Hi Aana' by Payal Dev","How about 'Asal Mein' by Darshan Raval","Please listen to'Ye Dooriyan' by Pritam","Listen to 'Khairiyat by Pritam"],
+     "context": [""]
+    },
+    {"tag": "happy songs",
+     "patterns": ["Suggest songs happy"],
+     "responses": ["Mmm, how about 'Kesariya' by Arijit Singh","Let me see, how about 'Shayad' by Pritam","These kind of days need songs like 'Hawayein' By Pritam","Would you like to listen to 'Pal' by Arijit Singh","How about 'Mehabooba' by Ravi Basrur","Listen to 'Zara Se' by K.K.","Please listen to 'Sadi Gali' by Lehmber Hussainpuri","Haan Main Galat by Pritam","'Kabira' by Pritam","'Tera Ban Jaunga' by Tulsi Kumar","'Pal Pal Dil Ke Pas' by Arijit Singh","How about 'Pehla Pyar', by Armaan Malik","Would you like to listen to'Raataan Lambiyan' by Tanishk Bagchi","What about 'Kaise Hua' by Vishal Mishra","'Ve Maahi' by Asees Kaur might be a nice song for you","'Tere Sang Yaara' by Atif Aslam is a really good song","'Fitoor' by Mithoon is a song for these times","'Manike' by Yohani is a nice song"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How could you help me?", "What you can do?", "What help you provide?", "How you can be helpful?"],
+     "responses": ["I can provide you with songs you might want to listen to","Well, I am a bot you can talk to", "Supporting your mental health by providing songs to lift your mood"],
+     "context": [""]
+    },
+    {"tag": "sad days",
+     "patterns": ["I am sad", "I am gloomy", "I had a bad day", "I want the day to go better" ],
+     "responses": ["Everyone has those days","Hey, I'm here for you ok?","You can talk to me about it.","Well I'm here to help you with that."],
+     "context": [""]
+    },
+    {"tag": "Happy days",
+     "patterns": ["Today was fun", "I had a wonderful time today", "I am happy today", "I'm so happy","I am happy"],
+     "responses": ["I am so happy for you!!","It's so good to hear that","That's amazing","Tell me more about your day"],
+     "context": [""]
+    },
+    {"tag": "Angry days",
+     "patterns": ["I am angry","I feel very angry"],
+     "responses": ["I'm sure we can talk it out\n How about I recommend:\n1.Nothing Compares 2 U by Sinéad Connor\n2.Fix You by ColdPlay "],
+     "context": [""]
+    }
+]
+}

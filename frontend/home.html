@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chatbot Song Recommendation System</title>
+        <link rel="Stylesheet" href="style.css">
+        <link rel="stylesheet2" href="contactus.css">
+        <link rel="stylesheet3" href="aboutus.css">
+    </head>
+    <body>
+        <nav>
+            <div class="logo"><a href="home.html"><img src="Img/Enklelogo.jpeg" alt="logo"></a>
+                <ul>
+                    <li><a href="http://127.0.0.1:5000/">Chat</a> </li>
+                    <li><a href="aboutus.html">About Us</a> </li>
+                    <li><a href="contact.html">Contact Us</a> </li>
+                </ul>
+            </div>        
+        </nav>
+        <div class="content">
+            <h1 style="text-align:center;">
+                ChatBot Song Recommendation System</h1>
+                <p class="p1" style="text-align:center ;">
+                <b><i>SongMate is a webapp that allows user to converse with Eva, our chatbot and on the basis of the chats, emotions of the user will be judged and songs will be recommended using Last.fm API.</i></b>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                </p>
+        </div>
+        <div class="wrapper">
+        <section class="info">
+            <h2 style="text-align:center;"> Hello There Friend!!</h2>
+            <div class="main">
+                <img src="img/friendly-chatbot.jpg">
+                <div class="info-text">
+                    <p class="p2" style="text-align:justify ;">
+                        ​My name is Eva, I can understand how you are feeling and suggest songs which you may like.
+                        Here you can talk with the chatbot and from the conversation, the emotion of the person is understood.
+                        We retrieve it using NLTK(Natural Language Processing), Keras, Python,etc.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="ibm">
+            <h3 style="text-align:center;"> IBM Watson™ Natural Language Understanding service</h2>
+            <div class="ibm-main">
+                <img src="img/ToneAnalyserIntro.png">
+                <div class="ibm-text">
+                    <p class="p2" style="text-align:justify ;">
+                        People often show various feelings, such as joy, sadness, anger in their daily communications. Language Understander indentifies the tone at both the sentance and document level. This is helpful in suggesting songs to make your mood a lot better.
+                        <br><br><br><br><br>
+                    </p>
+                </div>
+            </div>
+            <section class="lastfm">
+                <h4 style="text-align:center;"> Last FM</h2>
+                <div class="lastfm-main">
+                    <img src="img/lastfm.jpg">
+                    <div class="lastfm-text">
+                        <p class="p2" style="text-align:justify ;">
+                            Last FM is a music service that builds personal profiles by connecting to music streaming apps like iTunes, Spotify, etc. 
+                            Through this API, we can make requests to the server to provide songs based on the emotions analyzed by 
+                            the tone analyzer.
+                        </p>
+                    </div>
+                </div>
+        </div>    
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="./script.js"></script> 
+        <script>
+            $(window).scroll(function(){
+                if($(window).scrollTop()){
+                    $("nav").addClass("black");
+                }
+                else{
+                    $("nav").removeClass("black");
+                }
+            });
+        </script>
+
+     
+      
+    </body>
+</html>
